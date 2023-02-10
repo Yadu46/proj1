@@ -8,3 +8,5 @@ def hcf(a,b):
         return hcf(b, a%b)
 
 print(hcf.__doc__)
+
+print(hcf(12,24))
