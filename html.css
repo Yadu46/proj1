@@ -1,16 +1,23 @@
 
 img{
-  height:50px;
-  width:50px;
+  height:85px;
 }
 .box-1{
-  display: flex;
+  padding: 20px;
   align-items: center;
-  align-content: center;
+  /* align-content: center; */
+  display: flex;
   background-color:rebeccapurple;
   color:white;
-  height:50px;
-  width:100%;
-  line-height:50px;
   column-gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* add justfy content */
+}
+img{
+  align-content: center;
+}
+h1{
+  text-align: center;
+  display: flex;
 }
